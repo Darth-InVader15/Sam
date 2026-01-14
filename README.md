@@ -1,6 +1,6 @@
 # SAM: Context-Aware Offline AI Companion
 
-**Tagline:** A privacy-first, multi-persona local LLM orchestrator featuring scheduled check-ins and expressive TTS.
+**Tagline:** A privacy-first, multi-persona local LLM orchestrator featuring scheduled check-ins and expressive TTS (Basically I have no friends)
 
 ## Overview
 
