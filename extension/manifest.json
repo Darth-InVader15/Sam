@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "SAM: AI Companion",
+    "version": "1.0",
+    "description": "A privacy-first, local AI companion.",
+    "permissions": [
+        "alarms",
+        "notifications",
+        "storage"
+    ],
+    "host_permissions": [
+        "http://localhost:8000/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Chat with SAM"
+    }
+}

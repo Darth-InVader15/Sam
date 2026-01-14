@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SAM</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h2>SAM</h2>
+        <select id="mode-selector">
+            <option value="default">Default</option>
+            <option value="therapist">Therapist</option>
+            <option value="friend">Friend</option>
+            <option value="stranger">Stranger</option>
+        </select>
+    </div>
+    
+    <div id="chat-container">
+        <!-- Messages will appear here -->
+        <div class="message system">
+            Hello! I am SAM. How can I help you today?
+        </div>
+    </div>
+    
+    <div class="input-area">
+        <textarea id="user-input" placeholder="Type a message..."></textarea>
+        <button id="send-btn">Send</button>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
